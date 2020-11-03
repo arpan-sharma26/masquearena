@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>online Shopping</title>
+    <link rel = "icon" href ="Capture.PNG" 
+        type = "image/x-icon">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <style>
+    .top-navbar .navbar{
+    padding: 15px 0px;
+    position: fixed;
+    width: 100%;
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 100;
+}
+.top-navbar .navbar-light .navbar-nav .nav-link{
+    color: #010101;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    background: #d4061e;
+    color: #ffffff;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #d4061e;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    border: none;
+     box-shadow: 20px 50px 60px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
+    background: #d4061e;
+    color: #ffffff;
+}
+.navbar-light .navbar-toggler:hover{
+    background: #d4061e;
+}
+  body {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+  div.col-8 div {
+    height: 500px;
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+<header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Capture.PNG" alt="logo1" width="50" height="50" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-buttons" aria-controls="navbars-buttons" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-buttons">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="todays-deal.html">Today's Deal</a></li>
+                        <li class="nav-item "><a class="nav-link" href="Mobiles.html">Mobiles</a></li>                      
+                            <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                 <a class="dropdown-item " href="Computers.html">Computers</a>
+                                <a class="dropdown-item active"style="background-color:  #d4061e" href="customer.html">Customer Service</a>
+                                <a class="dropdown-item" href="Feedback.html">Feedback Page</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<br><br><br><br><div class="container-fluid">
+  <div class="row">
+    <nav class="col-sm-3 col-4" id="myScrollspy">
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <br><br><br><a class="nav-link active" href="#section1">Your Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">Returns and Refund</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Manage Adresses</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Manage Prime</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#section41">Payment Settings</a>
+            <a class="dropdown-item" href="#section42">Account Settings</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="col-sm-9 col-8">
+      <div class="media border p-3">
+    <img src="yourorder.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px;">
+    <div class="media-body">
+      <div id="section1" class="bg-transparent">    
+        <h1 style="color: red">Your Orders</h1>
+        <p style="color: black">Amazon first launched its distribution network in 1997 with two fulfillment centers in Seattle and New Castle, Delaware. Amazon has several types of distribution facilities consisting of crossdock centers, fulfillment centers, sortation centers, delivery stations, Prime now hubs, and Prime air hubs. There are 75 fulfillment centers and 25 sortation centers with over 125,000 employees.[89][90] Employees are responsible for five basic tasks: unpacking and inspecting incoming goods; placing goods in storage and recording their location; picking goods from their computer recorded locations to make up an individual shipment; sorting and packing orders; and shipping. A computer that records the location of goods and maps out routes for pickers plays a key role: employees carry hand-held computers which communicate with the central computer and monitor their rate of progress. Some warehouses are partially automated with systems built by Amazon Robotics.</p>
+      </div>
+          </div>
+  </div>
+
+       <div class="media border p-3">
+    <img src="return.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px;">
+    <div class="media-body">
+      <div id="section2" class="bg-transparent"> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="color: red">Returns and Refund</h1>
+        <p style="color: red ">Amazon's state sales tax collection policy has changed over the years since it did not collect any sales taxes in its early years. In the U.S., state and local sales taxes are levied by state and local governments, not at the federal level. In most countries where Amazon operates, a sales tax or value added tax is uniform throughout the country, and Amazon is obliged to collect it from all customers. Proponents of forcing Amazon.com to collect sales tax—at least in states where it maintains a physical presence—argue the corporation wields an anticompetitive advantage over storefront businesses forced to collect sales tax.[182]
+
+Many U.S. states in the 21st century have passed online shopping sales tax laws designed to compel Amazon.com and other e-commerce retailers to collect state and local sales taxes from its customers. Amazon.com originally collected sales tax only from five states as of 2011, but as of April 2017, Amazon collects sales taxes from customers in all 45 states that have a state sales tax and in Washington,</p>
+      </div> 
+          </div>
+  </div> 
+  <div class="media border p-3">
+    <img src="Adress1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px;">
+    <div class="media-body">      
+      <div id="section3" class="bg-transparent">
+        <br>
+        <br>
+        <br>
+        <br>         
+        <h1>Manage Adresses</h1>
+        <p>Amazon derives many of its sales (around 40% in 2008) from third-party sellers who sell products on Amazon.[104] Associates receive a commission for referring customers to Amazon by placing links to Amazon on their websites if the referral results in a sale. Worldwide, Amazon has "over 900,000 members" in its affiliate programs.[105] In the middle of 2014, the Amazon Affiliate Program is used by 1.2% of all websites and it is the second most popular advertising network after Google Ads.[106] It is frequently used by websites and non-profits to provide a way for supporters to earn them a commission.[107] Amazon reported over 1.3 million sellers sold products through Amazon's websites in 2007. Unlike eBay, Amazon sellers do not have to maintain separate payment accounts; all payments are handled by Amazon.</p>
+     </div> 
+          </div>
+  </div> 
+      <div class="media border p-3">
+    <img src="payment.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px;">
+    <div class="media-body">
+      <div id="section41" class="bg-transparent" >
+      <br>
+        <br>
+        <br>
+        <br>         
+        <h1>Payment Settings</h1>
+        <p>Amazon.com is primarily a retail site with a sales revenue model; Amazon takes a small percentage of the sale price of each item that is sold through its website while also allowing companies to advertise their products by paying to be listed as featured products.[124] As of 2018, Amazon.com is ranked 8th on the Fortune 500 rankings of the largest United States corporations by total revenue.[125]
+
+For the fiscal year 2018, Amazon reported earnings of US$10.07 billion, with an annual revenue of US$232.887 billion, an increase of 30.9% over the previous fiscal cycle. Since 2007 sales increased from 14.835 billion to 232.887 billion, thanks to continued business expansion.[126]
+
+Amazon's market capitalization went over US$1 trillion again in early February 2020 after the announcement of the fourth quarter 2019 results.[127] Amazon's total employees now number 798,000.[127]</p>
+      </div>
+      </div>
+      </div>  
+       <div class="media border p-3">
+    <img src="acc1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px;">
+    <div class="media-body">    
+      <div id="section42" class="bg-transparent">
+      <br>
+        <br>
+        <br>
+        <br>         
+        <h1>Account Settings</h1>
+        <p>Since its founding, the company has attracted criticism and controversy for its actions, including: supplying law enforcement with facial recognition surveillance tools;[141] forming cloud computing partnerships with the CIA;[142] leading customers away from bookshops;[143] adversely impacting the environment;[144] placing a low priority on warehouse conditions for workers; actively opposing unionization efforts;[145] remotely deleting content purchased by Amazon Kindle users; taking public subsidies; seeking to patent its 1-Click technology; engaging in anti-competitive actions and price discrimination;[28][29] and reclassifying LGBT books as adult content.[146][147] Criticism has also concerned various decisions over whether to censor or publish content such as the WikiLeaks website, works containing libel and material facilitating dogfight, cockfight, or pedophile activities. In December 2011, Amazon faced a backlash from small businesses for running a one-day deal to promote its new Price Check app. Shoppers who used the app to check prices in a brick-and-mortar store were offered a 5% discount to purchase the same item from Amazon.[148] Companies like Groupon, eBay and Taap.it countered Amazon's promotion by offering $10 off from their products.[149][150] The company has also faced accusations of putting undue pressure on suppliers to maintain and extend its profitability. </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="container">
+  <ul class="pagination justify-content-end">
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+  </ul>
+</div>
+<div class="container">
+  <span class="badge badge-pill badge-danger" data-toggle="tooltip" title="You are in Customer Care">Customer Care</span>
+</div>
+<br><br>
+<i class='fab fa-facebook-f' style='color: blue'></i>
+<i class='fab fa-google-plus-g' style='color: red'></i>
+<i class='fab fa-linkedin' style='color:darkblue'> </i>
+<br><br>
+<div class="container">                 
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="todays-deal.html">Todays Deal</a></li>
+    <li class="breadcrumb-item"><a href="Mobiles.html">Mobiles</a></li>
+    <li class="breadcrumb-item"><a href="Computers.html">Computers</a></li>
+    <li class="breadcrumb-item"><a href="#">Customer Service</a></li>
+  </ul>
+</div>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+</body>
+</html>

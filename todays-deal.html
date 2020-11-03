@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>online Shopping</title>
+    <link rel = "icon" href ="Capture.PNG" 
+        type = "image/x-icon">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <style>
+.top-navbar .navbar{
+    padding: 15px 0px;
+    position: fixed;
+    width: 100%;
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 100;
+}
+.top-navbar .navbar-light .navbar-nav .nav-link{
+    color: #010101;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    background: #d4061e;
+    color: #ffffff;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #d4061e;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    border: none;
+     box-shadow: 20px 50px 60px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
+    background: #d4061e;
+    color: #ffffff;
+}
+.navbar-light .navbar-toggler:hover{
+    background: #d4061e;
+}
+.banner-area {
+  min-height: 800px;
+  background-image: url("banner1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  </style>
+</head>
+<body style="background-image: url('pattern.jpg');">
+<header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Capture.PNG" alt="logo1" width="50" height="50" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-buttons" aria-controls="navbars-buttons" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-buttons">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="todays-deal.html">Today's Deal</a></li>
+                        <li class="nav-item "><a class="nav-link" href="Mobiles.html">Mobiles</a></li>                      
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                 <a class="dropdown-item" href="Computers.html">Computers</a>
+                                <a class="dropdown-item" href="customer.html">Customer Service</a>
+                                <a class="dropdown-item" href="Feedback.html">Feedback Page</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br><br><br>
+<section class="banner-area d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-6 col-xl-5">
+                   <button type="button" class="btn btn-danger">Go to Cart</button>
+                 </div></div>
+               </div>
+             </section>
+  <div class="container">
+  <div class="alert alert-success">
+  <strong>Hurry!</strong><a> Deal of the day</a> 
+</div>
+  <div class="alert alert-info"style="width: 50%">
+  <strong>Products</strong> 
+</div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="laptop1.jpg" target="_blank">
+          <img src="laptop1.jpg" alt="Lights" style="width:50%">
+          <div class="caption">
+            <h5>HP Pavilion Gaming DK0268TX </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#laptop1">Laptop Specification</button>
+       <!-- The Modal -->
+  <div class="modal" id="laptop1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">HP Pavilion Gaming DK0268TX 15.6-inch Laptop (Core i5-9300H/8GB/512GB SSD/Windows 10 Home/4GB NVIDIA GeForce GTX 1650 Graphics), Shadow Black</h4><br>
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+ <h5 style="color: red">Price now 66000</h5> <p>Processor: Intel Core i5-9300H (2.4 GHz base frequency, up to 4.1 GHz with Intel Turbo Boost Technology, 8 MB L3 cache, 4 cores)<br>
+Memory: 8 GB DDR4-2666 SDRAM (1 x 8 GB); Storage: 512 GB PCIe NVMe M.2 SSD<br>
+Display: 15.6 Inch FHD IPS anti-glare micro-edge WLED-backlit, 250 nits, 45% NTSC (1920 x 1080)<br>
+Graphics: NVIDIA GeForce GTX 1650 Graphics (4 GB GDDR5 dedicated)<br>
+Operating System: Pre-loaded Windows 10 Home with lifetime validity<br>
+In the box: Laptop with included battery and charger<br>
+Ports: 1 USB 3.1 Gen 2 Type-C (10 Gb/s signaling rate, Power Delivery 3.0, DisplayPort 1.4, HP Sleep and Charge); 1 USB 3.1 Gen 1 Type-A (HP Sleep and Charge); 2 USB 3.1 Gen 1 Type-A (Data Transfer Only); 1 HDMI; 1 AC smart pin; 1 RJ-45; 1 headphone/microphone combo<br>
+Warranty: This genuine HP laptop comes with a 1-year domestic warranty from HP covering manufacturing defects and not covering physical damage. For more details, see Warranty section below</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="oppo1.jpg" target="_blank">
+          <img src="oppo1.jpg" style="width:45%">
+          <div class="caption">
+            <h5>Oppo A52 </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#oppo1">Mobile Specification</button><br><br>
+       <!-- The Modal -->
+  <div class="modal" id="oppo1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Oppo A52 (Twilight Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now 13000</h5><p>12MP+8MP+2MP+2MP AI quad rear camera, 4K video, AI beautification | 16MP front camera<br>
+16.51 centimeters (6.5-inch) FHD+ punch-hole display with 2400 x 1080 pixels resolution, 405 ppi pixel density | 90.5% screen to body ratio| Eye care<br>
+Memory, Storage & SIM: 6GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)<br>
+Color OS 7.1 based on Android v10.0 operating system with 2.0GHz Qualcomm Snapdragon 665 octa core processor, Adreno 610 GPU<br>
+5000mAH lithium-polymer battery providing talk-time of 34 hours and standby time of 500 hours with 18W fast charge<br>
+1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase<br>
+Box also includes: Handset, type-c cable, earphone, adapter, Sim Tray Ejector, protective case, booklet with warranty card and quick guide<br>
+Great audio effect: Dual stereo speakers, dirac 2.0</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="bag1.jpg" target="_blank">
+          <img src="bag1.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Sara bag Front</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#bag1">Bag Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="bag1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sara Box Front Zip Sling bag</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 709</h5><p>Synthetic material ocher colored sling bag<br>
+18 centimeters height x 21 centimeters length x 6 centimeters width<br>
+Zip closure<br>
+1 compartment and 3 pockets<br>
+Do not expose to extreme heat</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+ <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="tide.jpg" target="_blank">
+          <img src="tide.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Tide Matic 3in1 PODs </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#tide">product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="tide">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Tide Matic 3in1 PODs Detergent Pack 18 ct</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">₹ 399</h5><p>Newly launched WOW 3in1 Tide PODs detergent capsules
+Tide 3in1 PODs has 3 unique chambers give whiteness, stain removal and brightness
+Tide 3in1 PODs provides outstanding clean in fully automatic machines. To use, place 1 Pod in the empty drum of the machine, load and wash. For heavy loads, use 2 PODs
+Tide PODs will dissolve on their own in the wash. Please don’t cut/ peel for use
+Please always store in the tub, away from reach of children</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="lizol.jpg" target="_blank">
+          <img src="lizol.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Lizol Disinfectant Cleaner</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#lizol">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="lizol">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Lizol Disinfectant Cleaner Citrus 2L</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 307.00</h5>India's No.1 Floor Cleaning Brand. Recommended by the Indian Medical Association
+Kills 99.9% of Germs and Cleans Tough Stains
+10x Better cleaning and protection than standard phenyls
+Use directly or diluted for regular use. Suitable for cleaning all kinds of surfaces
+Leaves a Pleasant Fragrance
+Usage Information: 1. Use one capful in half a bucket of water (4 Litres) 2. Gently mop the surface 3. No need to rinse Heavy Soiled Area: 1. Use undiluted on soiled area 2. Leave for 10 minutes 3. Rinse
+Country of Origin: India</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="tooth.jpg" target="_blank">
+          <img src="tooth.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Colgate Total Whole Mouth Health, </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#tooth">Product Details</button><br><br>
+       <!-- The Modal -->
+  <div class="modal" id="tooth">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Colgate Total Whole Mouth Health, Antibacterial Toothpaste, 185g (Advanced Health, Saver Pack )</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 122.00</h5><p>Only 20% of the germs in your mouth are on your teeth, the rest 80% are on gums, tongue and cheeks. Colgate Total Advanced Health is an antibacterial toothpaste that fights germs on teeth, tongue, cheeks, and gums giving you Whole Mouth Health for 12 hours
+This toothpaste has superior technology and actively seeks out bacteria on your teeth, tongue, cheeks and gums, forming a protective, anti-germ barrier - unlike an ordinary toothpaste
+Colgate Total provides more benefits than before - helping prevent cavities, plaque build-up, tartar formation, gingivitis and sensitivity. It gives you fresh beathe , protects your enamel, and removes stains, giving you a healthier, whiter smile.
+Recommended usage: Brush twice a day for 2 minutes each time. Children below 6 years of age should have adult supervision
+Good oral care habits keep your teeth and gums healthy, prevents tooth decay, gum disease & bad breath. To maintain good oral hygiene brush twice a day for 2 minutes each time, rinse with mouthwash for 30 seconds, and replace your toothbrush every 3 months
+Colgate is India's most trusted oral care brand and certified by Indian Dental Association. This toothpaste is 100% Vegan, Sugar-free and Gluten free</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="surf.jpg" target="_blank">
+          <img src="surf.jpg" alt="Fjords" style="width:50%">
+          <div class="caption">
+            <h5>Surf Excel Matic </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#surf">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="surf">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Surf Excel Matic Front Load Detergent Washing Powder, Specially Designed For Tough Stain Removal In Front Load Machines, 2Kg</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now 360.00</h5><p>packaging may vary - also available in polybag
+Surf excel matic front load laundry detergent is designed to work in high water level (20 liters) of front load washing machines
+Surf excel matic front load laundry detergent dissolves completely leaving no residue on your clothes on in the machine
+Surf excel matic front load laundry detergent produces the right amount of foam that protects your expensive front load machine from choking or clogging
+Surf excel matic is value for money . 1 scoop of Surf excel matic = 2 scoops of ordinary handwash detergent
+Surf excel matic front load laundry detergent is the no.1 matic detergent and is recommended by leading washing machine manufacturers<br>
+Zip closure<br>
+1 compartment and 3 pockets<br>
+Do not expose to extreme heat</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="walnut.jpg" target="_blank">
+          <img src="walnut.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Fruitri Kashmiri Walnut </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#walnut">Product Details</button><br><br>
+       <!-- The Modal -->
+  <div class="modal" id="walnut">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Fruitri Kashmiri Walnut Without Shell, Akhrot Giri, 250g</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 436.00</h5><p>Fruitri products are procured directly from growers and are processed and packed in our hygienic processing plant to retain their natural freshness, aroma and the original nutrients
+Considered "brain food" due to its high levels of omega-3
+100% Natural, Fresh, crisp and delicious Walnut by Fruitri
+Walnuts are great in baked goods and breakfast treats like zucchini walnut bread, carrot walnut muffins and apple walnut pancakes
+This walnut kernels are of high-quality, crispy and fresh from Kashmir. A handful of walnut kernels are very nutritious and perfectly good for healthy life. Considered "brain food" due to its high levels of omega-3. Walnuts are great in baked goods and breakfast treats like zucchini walnut bread, carrot walnut muffins and apple walnut pancakes.</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="almond.jpg" target="_blank">
+          <img src="almond.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Miltop California Almonds, 1kg</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#almond">product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="almond">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Miltop California Almonds, 1kg</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 865.00</h5><p>Replacement Guaranty
+California Origin
+Free shipping anywhere in India</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="seed.jpg" target="_blank">
+          <img src="seed.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <h5>Amazon Brand - Vedaka Spice combo</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#seed">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="seed">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Amazon Brand - Vedaka Spice combo - Cumin Seeds (Jeera), Mustard Seeds (Rai) Big, Fenugreek (Methi), 300g (100g each)</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now  ₹ 66.00</h5><p>No artificial colours and preservatives
+Consistency in quality across the year
+All Vedaka spices and seeds are hygienically packed and undergo stringent and rigorous laboratory tests to meet fssai food safety norms
+Net weight: 300g</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="sunfeast.jpg" target="_blank">
+          <img src="sunfeast.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Sunfeast Mom's</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#sunfeast">Product Details</button><br><br>
+       <!-- The Modal -->
+  <div class="modal" id="sunfeast">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sunfeast Mom's Magic Cashew and Almond, 600g</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 73.50</h5><p>ingredients: Wheat flour, sugar, refined plam oil, cashew bits(2.6%), Almond flakes(1.9%), Invert syrup, Raising agents(INS 500(ii), INS 450(ii)), Milk solids, Edible common salt, Butter, Emulsifiers (INS 471, INS 322(i), INS 472e) and Flour treatment agent (INS 223)
+Carry them when you are out and about to relieve those hunger pangs
+Perfect to be served along with evening tea
+Sprinkled with cashew and almond flakes, these cookies are filling and healthy
+Their crispy texture ensures you relish every bit of it</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="bowl.jpg" target="_blank">
+          <img src="bowl.jpg" alt="Fjords" style="width:80%">
+          <div class="caption">
+            <h5>Signoraware Serving Bowl</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#bowl">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="bowl">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Signoraware Serving Bowl Stainless Steel with Lid, 200 ml, Black</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹  99.00</h5><p>Ideal for office executives and school going kids
+Spill proof, leak proof and airtight containers that keeps food fresh for hours
+You can use this as snack boxes to hold fresh or dried eatables, sandwiches and much more items
+Color: Black, Material: Stainless Steel
+Package Contents : Classic Stainless Steel Container, 900 ml, Violet</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="cereal.jpg" target="_blank">
+          <img src="cereal.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Cereal Dispenser</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#cereal">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="cereal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Machak Easy Flow 6 Pcs Cereal Dispenser | Storage Jar | Food Rice Pasta Storage Box - 750 ml Plastic Grocery Container (Pack of 6, Clear, White)</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 565.00</h5><p>Container Capacity - 750ml Size { Length - 12 Cm, Width - 6.5 Cm & Height - 14 Cm}, Note: internal capacity depends on size of grains 750 ML is the liquid volume.
+Clear View, Side Window, Long-Lasting, Sturdy, Scratch Resistant & Unbreakable Container
+Food Grade Quality, Dishwasher Safe, These cereal jars make your kitchen attractive.
+100% Food Grade High Quality Unbreakable Plastic, Freezer Safe & Lid Included.
+These cereal jars make your kitchen attractive. The lids are attractive with flip open and close option.</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="strainer.jpg" target="_blank">
+          <img src="strainer.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Washing Bowl and Strainer</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#strainer">Bag Details</button><br><br>
+       <!-- The Modal -->
+  <div class="modal" id="strainer">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">JAPP Plastic Rice Pulses Fruits Vegetable Noodles Pasta Washing Bowl and Strainer (Multicolour)</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 120.00</h5><p>Easy to clean and use
+Package: 1 X Rice Wash Sieve
+Multi-functional prep bowl
+Prevents Food from getting wasted while straining water from the bowl
+Random color received as per availability</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="honey.jpg" target="_blank">
+          <img src="honey.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Dabur Honey</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#honey">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="honey">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Dabur Honey - World's No.1 Honey Brand - Squeezy pack - 400 gm ( Buy 1 Get 1 Free)</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 245.00</h5><p>One tablespoon of Dabur honey with warm water daily morning will help you in managing weight and reducing one size in 90days (clinically tested)
+Dabur honey is rich in antioxidants and hence will help in strengthening your immunity
+Daily use of Dabur Honey with warm water in morning is proved to be good for heart health
+Dabur honey is a rich souce of nutrition for you and your family
+Dabur honey when mixed with ginger and other household ingredients is a great remedy for cough & cold
+Daily intake of Dabur Honey will help boost your energy and keep you active,Product cap color may vary</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="salt.jpg" target="_blank">
+          <img src="salt.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Tata Salt, 1kg</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#salt">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="salt">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Tata Salt, 1kg</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 18.00</h5><p>Vacuum evaporated iodised salt
+Lodine helps in mental development of children and prevents iodine deficiency disorders in adults
+Tata salt has ventured into new product segments to meet the changing needs of its customers, adding tata salt lite, tata salt plus, sprinklers, tata black salt and tata rock salt to its repertoire
+Outer Package May Vary</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="santoor.jpg" target="_blank">
+          <img src="santoor.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Santoor Aloe Fresh Soap</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#santoor">Product Details</button><br><br>
+       <!-- The Modal -->
+  <div class="modal" id="santoor">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Santoor Aloe Fresh Soap with Aloe Vera and Lime, 125g (Buy 4 Get 1 Free)</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 128.00/h5><p>Is made with the perfect blend of lemon and aloe vera
+Lemon cuts the grease/oiliness on your skin. For Men & Women
+Aloe vera makes your skin glow so that you look young and feel fresh always</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="facewash.jpg" target="_blank">
+          <img src="facewash.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Face Wash, 150ml</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#facewash">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="facewash">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Himalaya Natural Glow Kesar Face Wash, 150ml</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 159</h5><p>Quantity: 150ml; Item Form: Gel
+Gives healthy, natural glow to face
+Soothes your skin, leaving it refreshed
+Skin Type: All Skin Types
+Target Audience: Men & Women
+Container Type: Tube
+Package Contents: 1 Face Wash
+Country of Origin: India</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="soap.jpg" target="_blank">
+          <img src="soap.jpg" alt="Fjords" style="width:90%">
+          <div class="caption">
+            <h5>Blue Fragrant Soap</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#soap">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="soap">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Park Avenue Cool Blue Fragrant Soap, 125g (Buy3 Get 1 Free)</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 105.00</h5><p>Premium Fragrant Soap
+Grade I soap
+Powered with Menthol and multimineral Energizers to give a cool and fresh start to the day
+Its aquous and citrus fragrance will elevate your senses
+Best soap for Cool start to the day.
+Also suitable for evening shower</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="vita.jpg" target="_blank">
+          <img src="vita.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Cadbury Bournvita</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#vita">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="vita">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Cadbury Bournvita Health Drink, 750 gm Refill Pack</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 254.00</h5><p>NW
+Strong bones: phosphorus – building blocks for normal bone development, vitamin d – helps absorb calcium from various foods
+Strong muscles: protein – helps in muscle building and muscle repair
+Active brain: iron, folate, vit b12 – essential for blood formation and maintaining a healthy brain and nervous system, iodine – aids normal brain development and functions</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="digestive.jpg" target="_blank">
+          <img src="digestive.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Sunfeast Farmlite Digestive</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="modal" data-target="#digestive">Product Details</button>
+       <!-- The Modal -->
+  <div class="modal" id="digestive">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sunfeast Farmlite Digestive High Fibre Biscuits, 1kg</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+  <h5 style="color: red">Price now ₹ 709</h5><p>Made from natural, wholesome and high fibre ingredients like oats, jowar, corn, ragi and wheat
+Takes care of all your dietary requirements with great taste and helps you stay active all day long
+No maida, no cholesterol, no transfat, made from aashirvad atta</p>
+  
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<div class="container">
+  <ul class="pagination justify-content-end">
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+  </ul>
+</div>
+<div class="container">
+  <span class="badge badge-pill badge-danger" data-toggle="tooltip" title="You are in Todays Deal Page">Todays Deal</span>
+</div>
+<br><br>
+<i class='fab fa-facebook-f' style='color: blue'></i>
+<i class='fab fa-google-plus-g' style='color: red'></i>
+<i class='fab fa-linkedin' style='color:darkblue'> </i>
+<br><br>
+<div class="container">                 
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Todays Deal</a></li>
+  </ul>
+</div>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+</body>
+</html>
