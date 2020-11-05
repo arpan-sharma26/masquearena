@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>online Shopping</title>
+    <link rel = "icon" href ="Capture.PNG" 
+        type = "image/x-icon">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <style>
+.top-navbar .navbar{
+    padding: 15px 0px;
+    position: fixed;
+    width: 100%;
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 100;
+}
+.top-navbar .navbar-light .navbar-nav .nav-link{
+    color: #010101;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    background: #d4061e;
+    color: #ffffff;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #d4061e;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    border: none;
+     box-shadow: 20px 50px 60px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
+    background: #d4061e;
+    color: #ffffff;
+}
+.navbar-light .navbar-toggler:hover{
+    background: #d4061e;
+}
+.banner-area {
+  min-height: 600px;
+  background-image: url("banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  </style>
+</head>
+<body style="background-image: url('pattern.jpg');">
+<header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Capture.PNG" alt="logo1" width="50" height="50" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-buttons" aria-controls="navbars-buttons" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-buttons">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="todays-deal.html">Today's Deal</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="Mobiles.html">Mobiles</a></li>                      
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                 <a class="dropdown-item" href="Computers.html">Computers</a>
+                                <a class="dropdown-item" href="customer.html">Customer Service</a>
+                                <a class="dropdown-item" href="Feedback.html">Feedback Page</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br><br><br>
+<section class="banner-area d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-6 col-xl-5">
+                   <button type="button" class="btn btn-danger">Go to Cart</button>
+                 </div></div>
+               </div>
+             </section><br><br>
+  <div class="container">
+  <div class="alert alert-success">
+  <strong>Hurry!</strong><a>Huge offer on Mobiles</a> 
+</div>
+  <div class="alert alert-info"style="width: 50%">
+  <strong>Mobile</strong> 
+</div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="oneplus8.jpg" target="_blank">
+          <img src="oneplus8.jpg" alt="Lights" style="width:70%">
+          <div class="caption">
+            <h5>OnePlus 8 </h5>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 20% OFF">Click Me For offer</button>
+    </div>
+  </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="oppo1.jpg" target="_blank">
+          <img src="oppo1.jpg" style="width:45%">
+          <div class="caption">
+            <h5>Oppo A52 </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 15% OFF">Click Me for Offer</button><br><br>
+      
+  </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="m21.jpg" target="_blank">
+          <img src="m21.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Samsung M21</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Some content inside the popover">Click Me for Offer</button>
+    
+</div>
+ <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Redmi9.jpg" target="_blank">
+          <img src="Redmi9.jpg" alt="Fjords" style="width:80%">
+          <div class="caption">
+            <h5>Redmi 9 Pro </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 10% OFF">Click Me for Offer</button>
+    
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="iphone11.jpg" target="_blank">
+          <img src="iphone11.jpg" alt="Fjords" style="width:45%">
+          <div class="caption">
+            <h5>Iphone 11</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 23% OFF">Click Me for Offer</button>
+       <!-- The Modal -->
+  
+   
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="iphone7.jpg" target="_blank">
+          <img src="iphone7.jpg" alt="Fjords" style="width:30%">
+          <div class="caption">
+            <h5>Iphone 7</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 16% OFF">Click Me for Offer</button><br><br>
+   
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Coolpad.jpg" target="_blank">
+          <img src="Coolpad.jpg" alt="Fjords" style="width:50%">
+          <div class="caption">
+            <h5>Coolpad Cool 6 </h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 21% OFF">Click Me for Offer</button>
+       
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Samsung.jpg" target="_blank">
+          <img src="Samsung.jpg" alt="Fjords" style="width:30%">
+          <div class="caption">
+            <h5>Samsung Galaxy Note10 Lite</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 21% OFF">Click Me for Offer</button><br><br>
+      
+</div> <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Note20.jpg" target="_blank">
+          <img src="Note20.jpg" alt="Fjords" style="width:25%">
+          <div class="caption">
+            <h5>Samsung Galaxy Note 20</h5>
+          </div>
+        </a>
+      </div>
+      <button type="button" class="btn btn-outline-danger"data-toggle="popover" title="Congrates!!" data-content="Congrates you got 9% OFF">Click Me for Offer</button>
+
+</div> 
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Our History 
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+        Jeff Bezos founded Amazon in July 1994. He chose Seattle because of technical talent as Microsoft is located there.[30] In May 1997, the organization went public. The company began selling music and videos in 1998, at which time it began operations internationally by acquiring online sellers of books in United Kingdom and Germany. The following year, the organization also sold video games, consumer electronics, home-improvement items, software, games, and toys in addition to other items.
+
+In 2002, the corporation started Amazon Web Services (AWS), which provided data on Web site popularity, Internet traffic patterns and other statistics for marketers and developers. In 2006, the organization grew its AWS portfolio when Elastic Compute Cloud (EC2), which rents computer processing power as well as Simple Storage Service (S3), that rents data storage via the Internet, were made available. That same year, the company started Fulfillment by Amazon which managed the inventory of individuals and small companies selling their belongings through the company internet site. In 2012, Amazon bought Kiva Systems to automate its inventory-management business, purchasing Whole Foods Market supermarket chain five years later in 2017.[31]
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Supply Chain
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Amazon first launched its distribution network in 1997 with two fulfillment centers in Seattle and New Castle, Delaware. Amazon has several types of distribution facilities consisting of crossdock centers, fulfillment centers, sortation centers, delivery stations, Prime now hubs, and Prime air hubs. There are 75 fulfillment centers and 25 sortation centers with over 125,000 employees.[89][90] Employees are responsible for five basic tasks: unpacking and inspecting incoming goods; placing goods in storage and recording their location; picking goods from their computer recorded locations to make up an individual shipment; sorting and packing orders; and shipping. A computer that records the location of goods and maps out routes for pickers plays a key role: employees carry hand-held computers which communicate with the central computer and monitor their rate of progress. Some warehouses are partially automated with systems built by Amazon Robotics.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        Website
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        The domain amazon.com attracted at least 615 million visitors annually by 2008;[94] by the beginning of 2016, over 130 million customers were visiting the U.S. website each month.[95] The company has invested heavily in a massive amount of server capacity for its website, especially to handle the excessive traffic during the Christmas holiday season.[96] According to Alexa Internet rankings, amazon.com is the third most popular website in the United States and the 14th most popular website worldwide.[91]
+
+Results generated by Amazon's search engine are partly determined by promotional fees.[97] The company's localized storefronts, which differ in selection and prices, are differentiated by top-level domain and country code:
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="container">
+  <ul class="pagination justify-content-end">
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+  </ul>
+</div>
+<div class="container">
+  <span class="badge badge-pill badge-danger" data-toggle="tooltip" title="You are in Mobiles page">Mobiles</span>
+</div>
+<br><br>
+<i class='fab fa-facebook-f' style='color: blue'></i>
+<i class='fab fa-google-plus-g' style='color: red'></i>
+<i class='fab fa-linkedin' style='color:darkblue'> </i>
+<br><br>
+<div class="container">                 
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="todays-deal.html">Todays Deal</a></li>
+    <li class="breadcrumb-item"><a href="#">Mobiles</a></li>
+  </ul>
+</div>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+</body>
+</html>
